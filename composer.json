@@ -1,0 +1,16 @@
+{
+    "name": "prosystemsc/bank_sevenpay",
+    "description": "API client library",
+    "keywords": ["bank", "processor"], 
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SevenPay\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",		
+        "guzzlehttp/guzzle": "^6.0",
+        "ext-curl": "*"
+    }
+}
